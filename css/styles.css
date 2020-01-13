@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Merriweather+Sans|Shadows+Into+Light&display=swap');
+
+body{
+  text-align: center;
+  background-color: #ffb99a;
+  font-family: 'Shadows Into Light', cursive;
+  background-image: url("https://a99d9b858c7df59c454c-96c6baa7fa2a34c80f17051de799bc8e.ssl.cf1.rackcdn.com/images/cast-iron-smoking.jpg");
+  background-size: cover;
+}
+
+h1{
+  font-size: 50px;
+  color: #851d41;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+p{
+  color: #ff7315;
+  font-size: 28px;
+  font-weight: bolder;
+  animation-name: poem;
+  animation-duration: 6s;
+}
+
+.bacon1{
+  animation-name: bacon;
+  animation-duration:3s;
+}
+.bacon2{
+  animation-name: bacon;
+  animation-duration:6s;
+}
+.bacon3{
+  animation-name: bacon;
+  animation-duration:9s;
+}
+.bacon4{
+  animation-name: bacon;
+  animation-duration:11s;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes bacon{
+from{
+  opacity: 0;
+}
+to{
+  opacity: 1.0;
+}
+}
+
+@keyframes poem{
+from{
+  opacity: 0;
+}
+to{
+  opacity: 1.0;
+}
+}
