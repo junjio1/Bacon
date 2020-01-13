@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2|Merriweather+Sans|Shadows+Into+Light&display=swap');
 
-body{
+/*#####################################Tags################################### */
+body {
   text-align: center;
   background-color: #ffb99a;
   font-family: 'Shadows Into Light', cursive;
-  background-image: url("https://a99d9b858c7df59c454c-96c6baa7fa2a34c80f17051de799bc8e.ssl.cf1.rackcdn.com/images/cast-iron-smoking.jpg");
+  background: url("https://a99d9b858c7df59c454c-96c6baa7fa2a34c80f17051de799bc8e.ssl.cf1.rackcdn.com/images/cast-iron-smoking.jpg") no-repeat fixed;
   background-size: cover;
 }
 
-h1{
+h1 {
   font-size: 50px;
   color: #851d41;
   animation-duration: 1s;
   animation-name: slidein;
 }
+h1:hover{
+  color:#e0bb20;
+}
 
-p{
+p {
   color: #ff7315;
   font-size: 28px;
   font-weight: bolder;
@@ -23,24 +27,33 @@ p{
   animation-duration: 6s;
 }
 
-.bacon1{
+/*#####################################CLass################################### */
+.bacon1 {
   animation-name: bacon;
-  animation-duration:3s;
-}
-.bacon2{
-  animation-name: bacon;
-  animation-duration:6s;
-}
-.bacon3{
-  animation-name: bacon;
-  animation-duration:9s;
-}
-.bacon4{
-  animation-name: bacon;
-  animation-duration:11s;
+  animation-duration: 3s;
 }
 
+.bacon2 {
+  animation-name: bacon;
+  animation-duration: 6s;
+}
 
+.bacon3 {
+  animation-name: bacon;
+  animation-duration: 9s;
+}
+
+.bacon4 {
+  animation-name: bacon;
+  animation-duration: 11s;
+}
+
+/*#####################################CLass################################### */
+#heading{
+
+}
+
+/*#####################################keyframes################################### */
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -53,20 +66,22 @@ p{
   }
 }
 
-@keyframes bacon{
-from{
-  opacity: 0;
-}
-to{
-  opacity: 1.0;
-}
+@keyframes bacon {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1.0;
+  }
 }
 
-@keyframes poem{
-from{
-  opacity: 0;
-}
-to{
-  opacity: 1.0;
-}
+@keyframes poem {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1.0;
+  }
 }
